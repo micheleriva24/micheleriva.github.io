@@ -1,12 +1,4 @@
-- date: "2026"
-  items:
+items:
     - lines:
-        - "*[Toposes with enough points as categories of étale spaces](https://www.sciencedirect.com/science/article/pii/S0022404926001003)*"
-        - "Joint work with [Sam van Gool](https://samvangool.net) and [Jérémie Marquès](https://jeremie-marques.name)"
-        - "Journal of Pure and Applied Algebra, 230 (6): 108269"
-
-- date: "2025"
-  items:
-    - lines:
-      - "*[A category of arrow algebras for modified realizability](http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html)*"
-      - "Theory and Applications of Categories, 44 (4): 132–180"
+        - *["A Type Theory for Synthetic &infin; -categories"](https://elearning.uni-regensburg.de/login/index.php)*, Master Thesis.
+        - "Supervisors: [Denis-Charles Cisinski](https://cisinski.app.uni-regensburg.de/index.html) and [Tashi Walde](https://sites.google.com/view/tashi-walde/home?pli=1&authuser=0)
