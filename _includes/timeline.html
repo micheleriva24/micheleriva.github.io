@@ -1,45 +1,45 @@
-<div class="timeline">
-  {% for group in include.data %}
-
-    {% capture date_label %}
-      {% if group["date"] %}
-        {{ group["date"] }}
-      {% elsif group["ongoing"] %}
-        since {{ group["start"] }}
-      {% elsif group["end"] %}
-        {{ group["start"] }} – {{ group["end"] }}
-      {% elsif group["start"] %}
-        {{ group["start"] }}
-      {% else %}
-        {{ group["label"] }}
-      {% endif %}
-    {% endcapture %}
-
-    <div class="timeline-year">
-      <h4 class="year">{{ date_label | strip }}</h4>
-
-      <div class="timeline-events">
-        {% for item in group.items %}
-          <div class="timeline-item">
-            {% for line in item.lines %}
-  {% assign rendered = line | markdownify | strip %}
-
-  {% if forloop.first %}
-    <div class="timeline-line">
-      {{ rendered | remove: '<p>' | remove: '</p>' }}
-    </div>
+<div class="timeline"> {% for group in include.data %}
+{% capture date_label %}
+  {% if group["date"] %}
+    {{ group["date"] }}
+  {% elsif group["ongoing"] %}
+    since {{ group["start"] }}
+  {% elsif group["end"] %}
+    {{ group["start"] }} – {{ group["end"] }}
+  {% elsif group["start"] %}
+    {{ group["start"] }}
   {% else %}
-    <ul class="timeline-subitems">
-      <li>
-        {{ rendered | remove: '<p>' | remove: '</p>' }}
-      </li>
-    </ul>
+    {{ group["label"] }}
   {% endif %}
-{% endfor %}
-          </div>
+{% endcapture %}
+
+<div class="timeline-year">
+  <h4 class="year">{{ date_label | strip }}</h4>
+
+  <div class="timeline-events">
+    {% for item in group.items %}
+      <div class="timeline-item">
+        {% for line in item.lines %}
+
+          {% if line.subitem %}
+            {% assign rendered = line.subitem | markdownify | strip %}
+            <ul class="timeline-subitems">
+              <li>
+                {{ rendered | remove: '<p>' | remove: '</p>' }}
+              </li>
+            </ul>
+          {% else %}
+            {% assign rendered = line | markdownify | strip %}
+            <div class="timeline-line">
+              {{ rendered | remove: '<p>' | remove: '</p>' }}
+            </div>
+          {% endif %}
+
         {% endfor %}
       </div>
-    </div>
+    {% endfor %}
+  </div>
+</div>
 
-  {% endfor %}
+{% endfor %}
 </div>
