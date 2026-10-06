@@ -1,4 +1,9 @@
-items:
-    - Category Theory Working Group, 2025
+- date: "2026"
+  items:
+    - lines:
     - Formal Category Theory Reading Group, 2026
     - Stability Theory Working Group, 2026
+- date: "2025"
+  items:
+    - lines:
+    - Category Theory Working Group
