@@ -2,5 +2,9 @@
   items:
     - lines:
       - "*[A type theory beyond animae](pdf_files/Higher Structures talk - A type theory beyond animae.pdf)*, Higher Structures - Meeting 1, University of Nottingham"
+    
+    - lines:
       - "*[A type theory beyond animae](pdf_files/ItaCa talk - A type theory beyond animae.pdf)*, 6th ItaCa workshop, University of Milan"
+      
+    - lines:
       - "*A type theory beyond animae* Category Theory Working Group, University of Manchester"
