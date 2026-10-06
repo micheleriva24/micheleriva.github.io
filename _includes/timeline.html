@@ -22,11 +22,20 @@
         {% for item in group.items %}
           <div class="timeline-item">
             {% for line in item.lines %}
-              {% assign rendered = line | markdownify | strip %}
-              <div class="timeline-line">
-                {{ rendered | remove: '<p>' | remove: '</p>' }}
-              </div>
-            {% endfor %}
+  {% assign rendered = line | markdownify | strip %}
+
+  {% if forloop.first %}
+    <div class="timeline-line">
+      {{ rendered | remove: '<p>' | remove: '</p>' }}
+    </div>
+  {% else %}
+    <ul class="timeline-subitems">
+      <li>
+        {{ rendered | remove: '<p>' | remove: '</p>' }}
+      </li>
+    </ul>
+  {% endif %}
+{% endfor %}
           </div>
         {% endfor %}
       </div>
