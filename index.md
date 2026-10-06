@@ -29,11 +29,11 @@ Before my PhD, I completed my Master’s degree in Mathematics in the [ALGANT Ma
          src="{{ '/assets/img/chevron-right.svg' | relative_url }}"
          alt=""
          aria-hidden="true">
-    <span>Teaching</span>
+    <span>Talks</span>
   </summary>
 
   <div class="home-section-content">
-    {% include timeline.html data=site.data.teaching %}
+    {% include timeline.html data=site.data.talks %}
   </div>
 </details>
 
@@ -57,10 +57,10 @@ Before my PhD, I completed my Master’s degree in Mathematics in the [ALGANT Ma
          src="{{ '/assets/img/chevron-right.svg' | relative_url }}"
          alt=""
          aria-hidden="true">
-    <span>Talks</span>
+    <span>Teaching</span>
   </summary>
 
   <div class="home-section-content">
-    {% include timeline.html data=site.data.talks %}
+    {% include timeline.html data=site.data.teaching %}
   </div>
 </details>
