@@ -1,25 +1,18 @@
-title: Umberto Tarantino
+title: Michele Riva
 logo: /assets/img/logo.png
 show_downloads: false
 description: "Personal webpage"
 lang: en
-url: "https://utarantino.github.io"
+url: "https://micheleriva24.github.io/micheleriva.github.io/"
 
 plugins:
   - jekyll-seo-tag
   
 # Biographic information
-name             : "Umberto Tarantino"
-pronouns         : "he/they"  
-bio              : "PhD student at IRIF"
-location         : "Office 4060 <br>8 place Aurélie Nemours <br>75013 Paris"
-employer         : "Université Paris Cité"
+name             : "Michele Riva"
+pronouns         : "he/him"  
+bio              : "PhD student at University of Manchester"
+location         : "Office 2.210 <br>8 Upper Brook St <br>M13 9SR Manchester"
+employer         : "University of Manchester"
 uri              : # URL
-email            : "umberto.tarantino@irif.fr" 
-
-# Academic websites
-arxiv            : "https://arxiv.org/search/?searchtype=author&query=Tarantino%2C+U"
-hal              : "https://hal.science/search/index/?q=*&authIdPerson_i=1638745"
-googlescholar    : "https://scholar.google.com/citations?user=jEFOH84AAAAJ&hl=en"
-researchgate     : "https://www.researchgate.net/profile/Umberto-Tarantino-3"
-scopus           : # URL
+email            : "https://micheleriva24.github.io/micheleriva.github.io/" 
