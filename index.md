@@ -3,7 +3,7 @@ layout: default
 ---
 
 I am a second-year PhD student in Mathematics at the [University of Manchester](https://www.manchester.ac.uk), under the supervision of [Nicola Gambino](https://personalpages.manchester.ac.uk/staff/Nicola.Gambino/).
-My research interests focus on 2-dimensional category theory and its relations to logic, with a particular emphasis on the formalism of double categories. Alongside this, I am working on an axiomatisation of ∞-category theory through the language of type theory.
+My research focuses on 2-dimensional category theory and its relations to logic, with a particular emphasis on the formalism of double categories. I am also working on an axiomatisation of ∞-category theory through the language of type theory.
 
 In particular, part of my current PhD project focuses on the study of bicategorical models of differential linear logic. In this direction, I have also developed a strong interest in the double categorical formalism of generalised multicategories.
 
