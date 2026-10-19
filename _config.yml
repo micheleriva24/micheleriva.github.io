@@ -3,7 +3,8 @@ logo: /assets/img/logo.png
 show_downloads: false
 description: "Personal webpage"
 lang: en
-url: "https://micheleriva24.github.io/micheleriva.github.io/"
+url: "https://micheleriva24.github.io"
+baseurl: "/micheleriva.github.io"
 
 plugins:
   - jekyll-seo-tag
