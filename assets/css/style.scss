@@ -443,7 +443,7 @@ hr {
   bottom: 0;
   left: 21%;
   width: 2px;
-  background-color: #A291CA;
+  background-color: #D6CFE8;
 }
 
 /* One year + its events */
@@ -571,7 +571,7 @@ hr {
 /* Desktop/laptop hover behaviour only */
 @media (hover: hover) and (pointer: fine) {
   .home-section > summary:hover {
-    color: var(--color-heading);
+    color: #00529F;
   }
 
   .home-section:not([open]) > summary:hover .section-chevron {
