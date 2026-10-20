@@ -304,15 +304,15 @@ hr {
 }
 
 .email {
-  background-image: url('/assets/img/at-sign.svg');
+  background-image: url('{{ "/assets/img/at-sign.svg" | relative_url }}');
 }
 
 .address {
-  background-image: url('/assets/img/marker-pin.svg');
+  background-image: url('{{ "/assets/img/marker-pin.svg" | relative_url }}');
 }
 
 .links {
-  background-image: url('/assets/img/attach.svg');
+  background-image: url('{{ "/assets/img/attach.svg" | relative_url }}');
 }
 
 @media print, screen and (max-width: 720px) {
